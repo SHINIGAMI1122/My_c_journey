@@ -2,8 +2,11 @@
 int main()
 {
     int spaces,stars,lines,x,y;
-    spaces=4;
-    lines=5;
+    
+    //lines=5;
+    scanf("%d",&lines);
+    spaces=lines-1;
+    
     stars=1;
     x=1;
     while(x<=lines)
