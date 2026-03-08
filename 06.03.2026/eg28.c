@@ -10,9 +10,11 @@ int main()
         y=2;
         while(y<=x-1)
         {
+            printf("Dividing by %d by %d\n",x,y);
             if(x%y==0)
             {
                 z=1;
+                break;
 
             }
             y++;
