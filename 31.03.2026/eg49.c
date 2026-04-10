@@ -3,10 +3,10 @@ int x;
 void sam();
 int main()
 {
-    x=10;
-    printf("%d\n",x);
+    x=10;// global variable
+    printf("%d\n",x);// global variable
     sam();
-    printf("%d\n",x);
+    printf("%d\n",x);// global variable
     return 0;
 }
 void sam()
